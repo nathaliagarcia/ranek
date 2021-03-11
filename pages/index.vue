@@ -1,6 +1,10 @@
 <template>
-  <div>
-    <h1 class="title">Ranek</h1>
+  <div class="container">
+    <div class="title">
+      <span>👉🏻</span>
+      <h1>Compre ou Venda</h1>
+      <span>👈🏻</span>
+    </div>
   </div>
 </template>
 
@@ -8,4 +12,27 @@
 export default {}
 </script>
 
-<style></style>
+<style scoped>
+.container {
+  margin: 60px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+span {
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 42px;
+  color: var(--color);
+}
+</style>
