@@ -1,10 +1,11 @@
 <template>
   <div class="container">
     <div class="title">
-      <span>👉🏻</span>
+      <span>👍</span>
       <h1>Compre ou Venda</h1>
-      <span>👈🏻</span>
+      <span>👎</span>
     </div>
+    <SearchProducts />
   </div>
 </template>
 
@@ -14,7 +15,7 @@ export default {}
 
 <style scoped>
 .container {
-  margin: 60px auto;
+  margin: 80px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +25,7 @@ export default {}
 .title {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
 }
 
 span {
@@ -32,7 +33,7 @@ span {
 }
 
 h1 {
-  font-size: 42px;
-  color: var(--color);
+  font-size: 52px;
+  color: var(--purple);
 }
 </style>
