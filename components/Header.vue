@@ -4,7 +4,9 @@
       <n-link to="/" class="logo">
         <img src="@/assets/svg/ranek.svg" alt="Logo Ranek"
       /></n-link>
-      <n-link to="/login" class="btn">Vender ✌🏻 Login</n-link>
+      <n-link to="/login">
+        <Button>Vender ✌️ Login</Button>
+      </n-link>
     </nav>
   </header>
 </template>
@@ -16,32 +18,18 @@ export default {}
 <style scoped>
 header {
   width: 100vw;
+  background: white;
+  box-shadow: var(--shadow);
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 25px 0;
+  padding: 23px 0;
 }
 
 img {
   width: 120px;
-}
-
-.btn {
-  color: white;
-  font-weight: bold;
-  padding: 15px 30px;
-  border: none;
-  background: linear-gradient(130deg, #a093ff 0%, #8876fd 100%);
-  border-radius: 25px;
-
-  transition: all 0.25s;
-}
-
-.btn:hover {
-  background: linear-gradient(50deg, #8876fd 0%, #a093ff 100%);
-  transform: scale(1.05);
 }
 </style>
