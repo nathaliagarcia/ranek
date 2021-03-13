@@ -1,44 +1,44 @@
 {
   "usuarios": [
     {
-      "id": "andre@origamid.com",
-      "email": "andre@origamid.com",
-      "nome": "André Rafael",
+      "id": "nathalia@ranek.com",
+      "email": "nathalia@ranek.com",
+      "nome": "Nathalia Garcia",
       "senha": "123",
       "rua": "Rua Ali Perto",
       "cep": "12345678",
       "numero": "25",
-      "estado": "RJ",
-      "cidade": "Rio de Janeiro"
+      "estado": "RS",
+      "cidade": "Pelotas"
     }
   ],
   "produtos": [
     {
       "id": "notebook",
       "nome": "Notebook",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "nathalia@ranek.com",
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
-      "fotos": "../assets/images/notebook.jpg"
+      "fotos": "notebook.jpg"
     },
     {
       "id": "smartphone",
       "nome": "Smartphone",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "nathalia@ranek.com",
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": "../assets/images/smartphone.jpg"
+      "fotos": "smartphone.jpg"
     },
     {
       "id": "tablet",
       "nome": "Tablet",
-      "usuario_id": "andre@origamid.com",
+      "usuario_id": "nathalia@ranek.com",
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": "../assets/images/tablet.jpg"
+      "fotos": "tablet.jpg"
     }
   ]
 }
