@@ -6,11 +6,36 @@
       <span>👎</span>
     </div>
     <SearchProducts />
+    <section v-if="products" class="products">
+      <CardProduct
+        v-for="product in products"
+        :key="product.id"
+        :product="product"
+      />
+    </section>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      products: {},
+    }
+  },
+
+  created() {
+    this.getProducts()
+  },
+
+  methods: {
+    getProducts() {
+      fetch('http://localhost:3001/produtos')
+        .then((res) => res.json())
+        .then((res) => (this.products = res))
+    },
+  },
+}
 </script>
 
 <style scoped>

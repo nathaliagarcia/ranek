@@ -1,5 +1,5 @@
 {
-  "usuario": [
+  "usuarios": [
     {
       "id": "andre@origamid.com",
       "email": "andre@origamid.com",
@@ -12,7 +12,7 @@
       "cidade": "Rio de Janeiro"
     }
   ],
-  "produto": [
+  "produtos": [
     {
       "id": "notebook",
       "nome": "Notebook",
@@ -20,7 +20,7 @@
       "preco": "4999",
       "vendido": "false",
       "descricao": "Esse é um novo notebook.",
-      "fotos": null
+      "fotos": "../assets/images/notebook.jpg"
     },
     {
       "id": "smartphone",
@@ -29,7 +29,7 @@
       "preco": "1999",
       "vendido": "false",
       "descricao": "Esse é um novo smartphone.",
-      "fotos": null
+      "fotos": "../assets/images/smartphone.jpg"
     },
     {
       "id": "tablet",
@@ -38,7 +38,7 @@
       "preco": "1399",
       "vendido": "false",
       "descricao": "Esse é um novo tablet.",
-      "fotos": null
+      "fotos": "../assets/images/tablet.jpg"
     }
   ]
 }
