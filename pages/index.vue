@@ -61,4 +61,12 @@ h1 {
   font-size: 52px;
   color: var(--purple);
 }
+
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
 </style>

@@ -17,6 +17,7 @@ button {
   background: linear-gradient(130deg, #a093ff 0%, #8876fd 100%);
   border-radius: 25px;
   cursor: pointer;
+  outline: none;
 
   transition: all 0.25s;
 }
