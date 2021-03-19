@@ -17,7 +17,11 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@/assets/styles/reset.css', '@/assets/styles/variables.css', '@/assets/styles/fonts.css'],
+  css: [
+    '@/assets/styles/reset.css',
+    '@/assets/styles/variables.css',
+    '@/assets/styles/fonts.css',
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -38,7 +42,9 @@ export default {
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {},
+  axios: {
+    baseURL: 'http://localhost:3001/',
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},

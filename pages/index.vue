@@ -29,10 +29,9 @@ export default {
   },
 
   methods: {
-    getProducts() {
-      fetch('http://localhost:3001/produtos')
-        .then((res) => res.json())
-        .then((res) => (this.products = res))
+    async getProducts() {
+      const products = await this.$axios.$get('produtos')
+      this.products = products
     },
   },
 }
